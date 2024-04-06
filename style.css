@@ -2,25 +2,23 @@
     border-radius: 50%;
 }
 
-/* Profile */
-.content {
+.main {
     font-family: "Manrope" , sans-serif;
 }
 
+/* Profile */
 .profile {
     display: flex;
     gap: 10px;
-    width: 652px;
+    max-width: 900px;
+    align-items: center;
+    padding-bottom: 80px;
 }
 
 .role {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 0px;
-    flex-grow: 1;
-    
 }
 
 .role p {
@@ -37,13 +35,11 @@
 }
 
 /* Projects */
-
 .worksflex {
     display: flex;
     gap: 14px;
     justify-content: flex-start;
-    position: relative;
-    width: min-content
+    
 }
 
 .title h4 {
@@ -51,25 +47,14 @@
     color: #cfcfcf;
 }
 
-.projects {
-    width: min-content;
-}
-
 .works img {
     border-radius: 4%;
-}
-
-.worksworks {
-    width: min-content
 }
 
 .works {
     display: flex;
     flex-direction: column;
-    gap: 14px;
-    justify-content: flex-start;
-    position: relative;
-    width: min-content
+    gap: 14px
 }
 
 .title h4 {
@@ -83,29 +68,26 @@
     gap: 16px;
 }
 
-/* Profile And Projects */
-.profileandprojects {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 100px;
-    width: min-content;
-}
-
-/* Contact*/
-.paragraph {
-    line-height: 32px;
-    font-weight:600;
-    width: 900px;
-    
+.works img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Contact: About*/
 .about {
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: min-content;
+}
+
+.paragraph {
+    line-height: 32px;
+    font-weight:600;
+}
+
+.links {
+    gap: 1%;
 }
 
 .about p {
@@ -122,16 +104,27 @@
     padding: 0px;
     margin: 0px;
 }
+
 .links {
     display: flex;
     gap: 12px;
     width: min-content;
 }
+
 .socials {
     display: flex;
     flex-direction: column;
     gap: 8px;
     width: min-content;
+}
+
+/* Contact: Copyright */
+.Copyright {
+    max-width: 900px;
+}
+
+.contact {
+    gap: 5%;
 }
 
 /* Contact: Reachout*/
@@ -143,6 +136,7 @@
     gap: 8px;
     width: min-content;
 }
+
 
 /* Contact: Copyright*/
 .Copyright h5 {
@@ -160,34 +154,16 @@
     gap: 32px;
 }
 
-/* HR */
-.hrdesign {
-    display: flex;
-    justify-content: flex-start;
-    width: 900px;
-    margin: 0px;
-}
-/*.hrdesign {
-    border-bottom: 1px solid #cfcfcf;
-    width: 900px;
-    height: 20px;
-    
-}*/
-
-/* Web Design Layout Website */
+/* General */
 .content {
     display: flex;
     flex-direction: column;
-    gap: 100px;
-    height: min-content;
+    gap: 80px;
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
 }
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    height: min-content;
-    padding: 100px 50px;
-    position: relative;
 
+.main {
+    padding: 5% 2%;
 }
