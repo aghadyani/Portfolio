@@ -1,0 +1,193 @@
+.profile img {
+    border-radius: 50%;
+}
+
+/* Profile */
+.content {
+    font-family: "Manrope" , sans-serif;
+}
+
+.profile {
+    display: flex;
+    gap: 10px;
+    width: 652px;
+}
+
+.role {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0px;
+    flex-grow: 1;
+    
+}
+
+.role p {
+    margin: 0px;
+}
+
+.name p {
+    font-weight:800;
+}
+
+.job p {
+    font-weight:600;
+    color: #cfcfcf;
+}
+
+/* Projects */
+
+.worksflex {
+    display: flex;
+    gap: 14px;
+    justify-content: flex-start;
+    position: relative;
+    width: min-content
+}
+
+.title h4 {
+    font-weight:600;
+    color: #cfcfcf;
+}
+
+.projects {
+    width: min-content;
+}
+
+.works img {
+    border-radius: 4%;
+}
+
+.worksworks {
+    width: min-content
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: flex-start;
+    position: relative;
+    width: min-content
+}
+
+.title h4 {
+    margin: 0px;
+    width: 900px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Profile And Projects */
+.profileandprojects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 100px;
+    width: min-content;
+}
+
+/* Contact*/
+.paragraph {
+    line-height: 32px;
+    font-weight:600;
+    width: 900px;
+    
+}
+
+/* Contact: About*/
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: min-content;
+}
+
+.about p {
+    margin: 0px;
+}
+
+/* Contact: Connect*/
+.link h5 {
+    line-height: 32px;
+    font-weight:600;
+    width: 900px;
+    font-size: 16px;
+    width: min-content;
+    padding: 0px;
+    margin: 0px;
+}
+.links {
+    display: flex;
+    gap: 12px;
+    width: min-content;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: min-content;
+}
+
+/* Contact: Reachout*/
+.email {
+    margin: 0px;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: min-content;
+}
+
+/* Contact: Copyright*/
+.Copyright h5 {
+    font-weight:600;
+    color: #cfcfcf;
+    margin: 0px;
+    width: 900px;
+}
+.Copyright {
+    width: 900px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* HR */
+.hrdesign {
+    display: flex;
+    justify-content: flex-start;
+    width: 900px;
+    margin: 0px;
+}
+/*.hrdesign {
+    border-bottom: 1px solid #cfcfcf;
+    width: 900px;
+    height: 20px;
+    
+}*/
+
+/* Web Design Layout Website */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: min-content;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    height: min-content;
+    padding: 100px 50px;
+    position: relative;
+
+}
