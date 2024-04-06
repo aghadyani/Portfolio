@@ -176,7 +176,12 @@
 }
 
 /* Link Hover */
-h5:hover {
+.link h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+h5 a:hover {
     color: rgb(90, 90, 90);
     cursor: pointer;
     text-decoration: underline;
